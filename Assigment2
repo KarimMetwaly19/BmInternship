@@ -1,5 +1,84 @@
 
 fun main(args: Array<String>) {
-    //task2
     
+        //task1
+ var list=listOf("Mr.","Ma","More")
+   
+    for (i in list){
+        
+        if (i.startsWith('M')&&i.contains('r')){ 
+            println(i)}
+       
+    }
+    //////////////////////////////
+    //task2
+   var list=listOf("a","ab","abc")
+   val cnt=3
+    var found:Boolean=false
+    for (i in list){
+        
+        if (i.length>=cnt){ found=true
+            break}
+        else{found=false}
+    }
+    if (found){print("yes")}
+    else{
+        print("no")
+    }
+    
+    //////////////////////////////
+      //task3
+   var list=listOf("abb","aab","abc")
+   var cnt=3
+    var cntitems=0
+   // var found:Boolean=false
+    for (i in list){
+        
+        if (i.length>=cnt){ 
+            cntitems++}
+       
+    }
+    if (cntitems==list.size){print("yes")}
+    else{
+        print("no")
+    }
+    
+    
+    
+    //////////////////////////////
+    
+        //task4
+ var list=listOf("a","Ma","Maze")
+   
+    for (i in list){
+        
+        if (i.startsWith('M')&&i.contains('a')){ 
+            println(i)}
+       
+    }
+    //////////////////////////////
+    
+     //task5
+
+   var list=listOf("a","ab","abc")
+   var cnt=3
+  
+   // var found:Boolean=false
+    for (i in list){
+        
+        if (i.length>=cnt){ 
+            print(i)}
+       
+    }
+    
+    //////////////////////////////
+ //task6   
+      var list=listOf("a","ab","abc")
+   
+    for (i in list){
+            println(i.length)
+    }
+}
+
+ 
 }
