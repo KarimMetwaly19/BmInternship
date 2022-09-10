@@ -1,0 +1,95 @@
+//Task1
+fun add(n1:Double,n2:Double):Double{
+    
+    return n1+n2
+}
+fun subtract(n1:Double,n2:Double):Double{
+    return n1-n2
+}
+fun multiply(n1:Double,n2:Double):Double{
+    return n1*n2
+}
+fun devidele,n2:Double):Double{
+    if (n2==0){print("Math error")}
+    else {
+        return n1/n2
+    }
+fun main() {
+     var n1=readLine()!!.toDouble()
+    var n2=readLine()!!.toDouble()
+}
+
+///////////////////////////////
+Task2
+
+fun add(n1:Double,n2:Double):Double{
+    
+    return n1+n2
+}
+fun subtract(n1:Double,n2:Double):Double{
+    return n1-n2
+}
+fun multiply(n1:Double,n2:Double):Double{
+    return n1*n2
+}
+fun devidele,n2:Double):Double{
+    if (n2==0){print("Math error")}
+    else {
+        return n1/n2
+    }
+fun main() {
+ var res:Double=0.0
+    var n1=readLine()!!.toDouble()
+    var n2=readLine()!!.toDouble()
+    //add(n1,n2)
+    ////sybtract(res,n1)
+}
+
+///////////////////////////
+Task3
+fun add(n1:Double,n2:Double):Double{
+    
+    return n1+n2
+}
+fun subtract(n1:Double,n2:Double):Double{
+    return n1-n2
+}
+fun multiply(n1:Double,n2:Double):Double{
+    return n1*n2
+}
+fun devidele,n2:Double):Double{
+    if (n2==0){print("Math error")}
+    else {
+        return n1/n2
+    }
+}
+fun main() {
+ var res:Double=0.0
+    var n1=readLine()!!.toDouble()
+    var sign1=readLine()
+    var n2=readLine()!!.toDouble()
+    var sign2=readLine()
+    var n3=readLine()!!.toDouble()
+   if (sign1=="*"||sign1=="/"){res=add(n1,n2)}
+   else {
+       if ((sign1=="+"||sign1=="-")&&(sign2=="*"||sign2=="/")){
+           if (sign2=="*"){res=multiply(n2,n3)
+           if (sign1=="+"){add(res,n1)}
+           else{ubtract(res,n1)}
+           }
+           else{res=devide(n2,n3)
+            if (sign1=="+"){add(res,n1)}
+           else{ubtract(res,n1)}
+           }
+           //case sign 1=*or/
+           else {
+               if (sign1=="*"){
+                   res=multiply(n1,n2)
+                   if (sign2=="+"){add(res,n3)
+                   else{subtract(res,n2)
+               }
+           }
+           
+       }
+   }
+}
